@@ -1,0 +1,35 @@
+.home__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 1rem;
+  z-index: 1;
+  max-width: 90%;
+  width: 100%;
+}
+
+.home__container-title {
+  font-size: 2.5rem;
+  color: black;
+}
+
+.home__container-description {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.home__button {
+  transition: all 0.3s ease;
+}
+
+.home__button:hover {
+  background-color: #135ba1;
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
