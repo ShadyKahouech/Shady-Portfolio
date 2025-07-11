@@ -5,7 +5,7 @@
 .App {
   min-height: 100vh;
   height: auto;
-  overflow-y: auto;
+  /* overflow-y: auto; */
 }
 
 body {
@@ -15,7 +15,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 html {

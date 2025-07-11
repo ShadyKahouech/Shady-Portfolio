@@ -9,8 +9,8 @@ import ImageCarousel from "../clipper/Clipper";
 function About() {
   return (
     <div className="about__container-global">
-      <div>
-        <Header className="sticky-header" />
+      <div className="sticky-header">
+        <Header />
       </div>
       <div className="about__container-detail">
         <span className="about__container-title">About</span>
@@ -54,13 +54,10 @@ function About() {
             </div>
             <span className="about__container-about">
               Full-stack JavaScript developer with expertise in React.js,
-              Next.js, Express.js, and Node.js,delivering innovative web and
-              mobile projects. With a strong background in databasemanagement
-              and front-end development, I build high-performance, scalable
-              solutions. As aformer researcher and lecturer, I bring excellent
-              communication and teamwork skills. Driven bycontinuous learning, I
-              am passionate about contributing to ambitious and impactful
-              webdevelopment initiatives.
+              Next.js, Express.js, and Node.js. I build high-performance web and
+              mobile apps. With a background as a researcher, lecturer, and
+              medical delegate, I bring strong communication, analytical skills,
+              and a passion for technology to every project.
             </span>
           </div>
         </div>
