@@ -1,0 +1,16 @@
+.portfolio__container-title {
+  text-align: center;
+}
+.portfolio__container-pr1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.portfolio__container-text {
+  width: 50rem;
+}
+.margin__top {
+  margin-top: 3rem;
+}

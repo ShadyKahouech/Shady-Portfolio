@@ -295,7 +295,13 @@ export default function Profile() {
   return (
     <Container maxWidth="md" sx={{ py: 0 }}>
       <Header />
-      <Stack direction="row" spacing={3} alignItems="center" mb={4}>
+      <Stack
+        direction="row"
+        spacing={3}
+        alignItems="center"
+        mb={4}
+        marginTop={3}
+      >
         <Avatar
           alt="Mourad Shady Kahouech"
           src={shady}
@@ -362,9 +368,9 @@ export default function Profile() {
         <Typography>
           Full-stack JavaScript developer with expertise in React.js, Next.js,
           Express.js, and Node.js. I build high-performance web and mobile apps.
-          With a background as a researcher, lecturer, and medical delegate, I
-          bring strong communication, analytical skills, and a passion for
-          technology to every project.
+          With a background as a researcher, lecturer, and medical
+          representative, I bring strong communication, analytical skills, and a
+          passion for technology to every project.
         </Typography>
       </Box>
 
