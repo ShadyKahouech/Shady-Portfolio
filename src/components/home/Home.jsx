@@ -1,9 +1,14 @@
 import Header from "../header/Header";
 import PrimaryButton from "../primaryButton/PrimaryButton";
 import Footer from "../footer/Footer";
+import { useNavigate } from "react-router-dom";
 import "./Home.css";
 
 function Home() {
+  const navigate = useNavigate();
+  const handleNavigate = () => {
+    navigate("./contact");
+  };
   return (
     <div>
       <div>
@@ -26,6 +31,7 @@ function Home() {
             Full Stack Web Developper
           </span>
           <PrimaryButton
+            onClick={handleNavigate}
             text="Contact Me"
             className="home__button"
             style={{

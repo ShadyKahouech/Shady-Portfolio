@@ -1,179 +1,3 @@
-// import React from "react";
-// import Header from "../header/Header";
-// import Footer from "../footer/Footer";
-// import "./Resume.css";
-
-// function Resume() {
-//   return (
-//     <div>
-//       <div className="sticky-header">
-//         <Header />
-//       </div>
-//       <h1 className="resume">Resume</h1>
-//       <div className="resume__container">
-//         <div className="vertical-line"></div>
-//         <div className="resume__container-summary">
-//           <h2>Summary</h2>
-//           <p>
-//             Full-stack JavaScript developer with expertise in React.js, Next.js,
-//             Express.js, and Node.js,delivering innovative web and mobile
-//             projects. With a strong background in databasemanagement and
-//             front-end development, I build high-performance, scalable solutions.
-//             As aformer researcher and lecturer, I bring excellent communication
-//             and teamwork skills. Driven bycontinuous learning, I am passionate
-//             about contributing to ambitious and impactful webdevelopment
-//             initiatives..
-//           </p>
-//           <h2>Skills</h2>
-//           <h4>Front-End Development :</h4>
-//           <p>
-//             React.js, Next..js, React Native, TypeScript, HTML, CSS,
-//             SCSS,Tailwind CSS, Figma
-//           </p>
-//           <h4>Back-end Development :</h4>
-//           <p>Express.js, Node.js, SQL, Sequelize, MongoDB</p>
-//           <h4>Soft Skills :</h4>
-//           <p>
-//             Skilled in influencing and negotiating with diverse stakeholders.
-//             Experienced in teamwork, project supervision, and creating
-//             productive and collaborative workenvironments. Ability to
-//             communicate complex information clearly and effectively.
-//           </p>
-//         </div>
-
-//         <div className="vertical-line"></div>
-
-//         <div className="resume__container-summary">
-//           <h2>Professional Experiences</h2>
-//           <h4>Customer Care Representative: </h4>
-//           <p>
-//             De décembre 2019 à mars 2024 Qatar General Electricity & Water
-//             Corporation (Kahramaa), Doha, Qatar
-//           </p>
-//           <h4>Teaching:</h4>
-//           <p>De septembre 2017 à 2019 Numidia Gafsa, Tunis</p>
-//           <p>
-//             De septembre 2017 à 2018 Faculty of Science of Monastir, Monatir,
-//             Tunis
-//           </p>
-//           <h4>Medical Representative:</h4>
-//           <p>
-//             From January 2011 to July 2011 Medical Bio-Cleaning Trading Company
-//             Gafsa, Tunis
-//           </p>
-//           <h4>Research and Supervision Experience:</h4>
-//           <p>
-//             From September 2011 to June 2016 Faculty of Sciences of Monastir,
-//             Laboratory of Interfaces and Advanced Materials (LIMA) Monastir
-//             Research Assistant Faculty of Sciences of Monastir, LIMA, Tunisia
-//             2011-2016
-//           </p>
-//           <h4>Research and Supervision Experience:</h4>
-//           <p>
-//             From September 2011 to June 2016 Faculty of Sciences of Monastir,
-//             Laboratory of Interfaces and Advanced Materials (LIMA) Monastir
-//             Research Assistant Faculty of Sciences of Monastir, LIMA, Tunisia
-//             2011-2016
-//           </p>
-//         </div>
-//       </div>
-//       {/* *************************** */}
-//       <div className="resume__container-summary-title">
-//         <h2>DEGREES AND TRAINING</h2>
-
-//         <div className="resume__container-summary-Training">
-//           <h4>Certifications and Additional Training</h4>
-//           <p>
-//             From April 2024 to September 2024 RebootKamp (RBK) Technopole
-//             Ghazala, Tunisia Full-Stack JavaScript Developer Training +1000
-//             hours of courses
-//           </p>
-//           <h4>PhD in Chemistry</h4>
-//           <p>
-//             From September 2011 to October 2016 Faculty of Sciences of Monastir
-//             Monastir, Tunisia, Summa Cum Laude
-//           </p>
-//           <h4>Master's in Physico-Chemistry</h4>
-//           <p>
-//             From September 2008 to June 2010 Faculty of Sciences of Monastir
-//             Monastir, Tunisia Summa Cum Laude
-//           </p>
-//         </div>
-//       </div>
-//       {/* Project 1*************************** */}
-//       <div className="resume__container-summary-title">
-//         <h2>PROJECTS</h2>
-
-//         <div className="resume__container-summary-Training">
-//           <h3>Home Services Web Application (Ongoing):</h3>
-//           <p>
-//             Development of a modern web application for services such as moving,
-//             cleaning, plumbing, and handyman tasks. The application stands out
-//             for its polished design and dynamic animations.
-//           </p>
-//           <h4>Technologies Used:</h4>
-//           <h5>Backend:</h5>
-//           <p>
-//             TypeScript with Next.js for performant server-side rendering and a
-//             RESTful API.
-//           </p>
-//           <h5>Database:</h5>
-//           <p>SQL integrated via an efficient ORM.</p>
-//           <h5>Authentication:</h5>
-//           <p>
-//             Implementation of secure user management with Passport.js, allowing
-//             JWT authentication as well as GoogleAuth sign-in and sign-up.
-//           </p>
-//           <h5>Frontend:</h5>
-//           <p>SCSS for modern design and engaging animations.</p>
-//           <h5>Service Management:</h5>
-//           <p>
-//             Search, booking, and tracking. Interactive animations and responsive
-//             design for a smooth user experience.
-//           </p>
-//         </div>
-//       </div>
-//       {/* Project 2 *************************** */}
-//       <div className="resume__container-summary-title">
-//         <div className="resume__container-summary-Training">
-//           <h3>Mobile App – Moving Services</h3>
-//           <p>
-//             Development of a mobile application focused on movingservices,
-//             featuring robust functionality and an intuitive user interface.
-//           </p>
-//           <h4>Technologies Used:</h4>
-//           <h5>Backend:</h5>
-//           <p>Express.js with Sequelize for data handling.</p>
-//           <h5>Database:</h5>
-//           <p>SQL integrated via an efficient ORM.</p>
-//           <h5>Authentication:</h5>
-//           <p>JWT for secure user access.</p>
-//           <h5>Payments:</h5>
-//           <p>Stripe integration for secure transactions.</p>
-//           <h5>Image Storage:</h5>
-//           <p>Cloudinary for efficient photo management.</p>
-//           <h5>Chat:</h5>
-//           <p>Real-time communication using Socket.io</p>
-//           <h5>Frontend:</h5>
-//           <p>
-//             Responsive design with integrated Google Maps for interactive
-//             location selection
-//           </p>
-//           <h5>Key Features::</h5>
-//           <li>Secure registration and login via JWT</li>
-//           <li>In-app live chat between users and drivers via Socket.io</li>
-//           <li>Stripe-based secure online payments</li>
-//           <li>Real-time updates and user-friendly interface</li>
-//         </div>
-//       </div>
-
-//       <Footer />
-//     </div>
-//   );
-// }
-
-// export default Resume;
-
 import React from "react";
 import {
   Box,
@@ -186,7 +10,6 @@ import {
   Link,
   Stack,
   Paper,
-  Button,
   Tooltip,
 } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -201,24 +24,40 @@ const techStack = {
   backEnd: ["Node.js", "Express.js"],
   databases: ["MongoDB", "SQL", "Sequelize"],
   tools: ["Git", "Figma"],
+  research: [
+    "Connaissance des bonnes pratiques de laboratoire (BPL)",
+    "Caractérisation spectroscopique (UV-Vis, IR, RMN)",
+    "Sensibilisation à la sécurité chimique et aux protocoles de prévention des risques",
+    "Semi-conducteurs à base de phtalocyanines",
+    "Extraction et modification de la lignine",
+    "Valorisation des déchets environnementaux",
+    "Évaluation des risques en laboratoires chimiques",
+    "Gestion des déchets chimiques et respect des normes environnementales",
+  ],
 };
 
 const education = [
   {
-    degree: "PhD in Chemistry",
-    institution: "Faculty of Sciences of Monastir, Tunisia",
+    degree: "Certifications et Formations Complémentaires",
+    institution: "RebootKamp (RBK) technopole Ghazala, Tunisie",
+    period:
+      "Formation Développeur Full-Stack JavaScript, +1000 heures de cours",
+  },
+  {
+    degree: "Doctorat en Chimie",
+    institution: "Faculté des Sciences de Monastir, Tunisie",
     period: "2011-2016",
     honors: "Summa Cum Laude",
   },
   {
-    degree: "Master of Science in Physico-Chemistry",
-    institution: "Faculty of Sciences of Monastir, Tunisia",
+    degree: "Master en chimie physique",
+    institution: "Faculté des Sciences de Monastir, Tunisie",
     period: "2008-2010",
     honors: "Summa Cum Laude",
   },
   {
-    degree: "Bachelor of Science in Physics & Chemistry",
-    institution: "Faculty of Sciences of Monastir, Tunisia",
+    degree: "Licence en Physique-Chimie",
+    institution: "Faculté des Sciences de Gafsa, Tunisie",
     period: "2003-2007",
     honors: "Cum Laude",
   },
@@ -226,69 +65,93 @@ const education = [
 
 const workExperience = [
   {
-    title: "Customer Care Representative",
+    title: "Représentant du Service Client",
     company:
-      "Qatar General Electricity & Water Corporation (Kahramaa),Doha. Qatar",
-    period: "December 2019 - March 2024",
+      "Qatar General Electricity & Water Corporation (Kahramaa), Doha, Qatar",
+    period: "Décembre 2019 - Mars 2024",
   },
   {
-    title: "Teaching",
-    company: "Numidia School Gafsa.Tunisia",
-    period: "Sep 2017 - June 2019",
+    title: "Enseignant - Chimie Organique (Master 1)",
+    company: "Faculté des Sciences de Monastir, Tunisie",
+    period: "Septembre 2017 - Juin 2018",
   },
   {
-    title: "Medical Representative",
-    company: "Biocleaning Commercial Company Gafsa.Tunisia",
-    period: "Junuary 2011 - July 2011",
+    title: "Enseignant de Chimie au Lycée",
+    company: "Lycée Numidia Gafsa, Tunisie",
+    period: "Septembre 2017 - Juin 2019",
   },
-
   {
-    title: "Teaching, Research, and Supervision Experience",
-    company: "Faculty of Sciences of Monastir, LIMA",
-    period: "2018 - 2019",
+    title: "Délégué Médical",
+    company: "Société Commerciale de Bio-nettoyage Médical, Gafsa, Tunisie",
+    period: "Janvier 2011 - Juillet 2011",
+  },
+  {
+    title: "Expérience de Recherche et Supervision",
+    company:
+      "Faculté des Sciences de Monastir, Laboratoire des Interfaces et Matériaux Avancés (LIMA), Monastir",
+    period: "Assistant de Recherche : 2018 - 2019",
   },
 ];
 
 const additionalProjects = [
   {
-    title: "Home Services Web Application",
+    title:
+      "Projet de Thèse : Synthèse de Nouveaux Matériaux Semi-Conducteurs à Base de Phtalocyanines",
     details: [
-      "Modern design and dynamic animations.",
-      "Express.js + TypeScript backend with Passport.js and JWT.",
-      "Responsive frontend using SCSS.",
-      "Future features: online payment & real-time notifications.",
+      "Superviseur : Pr. Jamoussi Bassem - Faculté des Sciences de Monastir",
+      "Ce travail de recherche a porté sur la conception et la synthèse de nouveaux matériaux organiques semi-conducteurs destinés à des applications dans les dispositifs optoélectroniques.",
+      "Il a impliqué des techniques avancées de synthèse organique, de caractérisation structurale et d'analyse des propriétés électroniques et thermiques.",
+      "Cette thèse m'a permis d'acquérir une solide expertise en manipulation de produits chimiques sensibles, en gestion des risques en laboratoire, et en développement de matériaux à potentiel durable.",
     ],
   },
   {
-    title: "Mobile App - Moving Services",
+    title:
+      "Projet de Master : Valorisation des Sous-Produits de la Biomasse : Extraction, Modification Chimique et Application de la Lignine",
     details: [
-      "Built with Express.js, Sequelize, and JWT authentication.",
-      "Cloudinary for image storage, Stripe for payments.",
-      "Live chat via Socket.io and Google Maps integration.",
+      "Superviseur : Pr. Mustapha Majdoub - Faculté des Sciences de Monastir",
+      "Ce projet porte sur la valorisation environnementale des déchets issus de l’industrie papetière. Il consiste à extraire la lignine de la liqueur noire, riche en composés phénoliques toxiques, puis à effectuer des modifications chimiques afin de rendre cette matière valorisable. La lignine modifiée est ensuite utilisée comme agent dispersant dans la coloration du polyester.",
+      "Ce travail a permis de réduire l’impact environnemental de sous-produits polluants tout en explorant des applications durables de la lignine. Il m’a également sensibilisé aux enjeux de gestion des déchets industriels, de prévention des risques chimiques et de développement durable.",
     ],
   },
   {
-    title: "E-commerce Platform - Para-pharmacy",
+    title: "Application mobile de déménagement (service spécifique)",
     details: [
-      "Solo project with React, Express, MySQL, Cloudinary & Stripe.",
-      "Secure login with JWT, full cart system with Redux Toolkit.",
-      "Fully responsive design from scratch.",
+      "Technologies utilisées ",
+      "Base de données : MySQL",
+      "Backend : Express.js avec Sequelize pour la gestion des données.",
+      "Authentification : JWT pour sécuriser les accès.",
+      "Paiement : Intégration de Stripe pour des transactions sécurisées.",
+      "Stockage d'images : Cloudinary pour une gestion efficace des photos.",
+      "Chat : Socket.io pour une communication en temps réel entre les utilisateurs.",
+      "Frontend : Design responsive avec une carte interactive intégrée (Google Maps API).",
+      "Design entièrement responsive créé de zéro.",
+      "Fonctionnalités principales :Inscription et connexion sécurisées via JWT",
+      "Paiement sécurisé via Stripe.",
+      "Chat intégré avec mise à jour instantanée.",
     ],
   },
   {
-    title: "Football League Web Application",
+    title: "Plateforme E-commerce - Parapharmacie",
     details: [
-      "React frontend with SCSS styling.",
-      "Express backend + MySQL using Sequelize ORM.",
-      "Integrated public football API for real-time data.",
+      "Backend : Express.js avec Sequelize pour la gestion des données.",
+      "Connexion sécurisée avec JWT, système de panier avec Redux Toolkit.",
+      "Design entièrement responsive créé de zéro.",
+    ],
+  },
+  {
+    title: "Application Web Ligue de Football",
+    details: [
+      "Frontend React avec stylisation SCSS.",
+      "Backend Express + MySQL avec ORM Sequelize.",
+      "API publique de football intégrée pour les données en temps réel.",
     ],
   },
 ];
 
 const languages = [
-  "English (Fluent)",
-  "French (Fluent - TCF C2)",
-  "Arabic (Native)",
+  "Anglais (Courant)",
+  "Français (Courant - TCF C2)",
+  "Arabe (Langue Maternelle)",
 ];
 
 export default function Profile() {
@@ -312,11 +175,13 @@ export default function Profile() {
             Mourad Shady Kahouech
           </Typography>
           <Typography variant="subtitle1" color="text.secondary" gutterBottom>
-            Full-Stack Web and Mobile Developer
+            Développeur Full-Stack Web et Mobile
           </Typography>
           <Typography color="text.secondary" mb={1}>
-            Expertise in React, Node.js, and JavaScript. Skilled in building
-            scalable, user-centric applications.
+            Full-Stack Web & Mobile Developer Ex-chercheur et formateur
+            scientifique. Expérience en communication médicale et en milieu
+            international. Expertise en React, Node.js, et JavaScript. Créateur
+            de solutions web performantes et intuitives.
           </Typography>
           <Stack direction="row" spacing={1}>
             <Chip label="Tunis, Tunisia" size="small" />
@@ -363,14 +228,18 @@ export default function Profile() {
       {/* About */}
       <Box mb={5}>
         <Typography variant="h5" fontWeight="bold" gutterBottom>
-          About Me
+          À propos
         </Typography>
         <Typography>
-          Full-stack JavaScript developer with expertise in React.js, Next.js,
-          Express.js, and Node.js. I build high-performance web and mobile apps.
-          With a background as a researcher, lecturer, and medical
-          representative, I bring strong communication, analytical skills, and a
-          passion for technology to every project.
+          Développeur Full-Stack JavaScript spécialisé en React.js, Next.js,
+          Express.js et Node.js, avec une solide expérience scientifique. Je
+          conçois des applications web et mobiles performantes, tout en mettant
+          en œuvre une approche rigoureuse et méthodique acquise au cours de mes
+          années de recherche, d'enseignement et de communication scientifique.
+          Sensibilisé aux enjeux de la qualité, de la sécurité et du
+          développement durable, je combine aujourd'hui mes compétences
+          techniques et analytiques pour développer des solutions innovantes et
+          responsables.
         </Typography>
       </Box>
 
@@ -386,11 +255,14 @@ export default function Profile() {
                 variant="subtitle1"
                 fontWeight="600"
                 gutterBottom
-                sx={{ textTransform: "capitalize" }}
+                sx={{
+                  textTransform: "capitalize",
+                  mb: 2,
+                }}
               >
                 {category.replace(/([A-Z])/g, " $1")}
               </Typography>
-              <Stack direction="row" spacing={1} flexWrap="wrap">
+              <Stack direction="row" sx={{ gap: "12px 16px" }} flexWrap="wrap">
                 {items.map((item) => (
                   <Chip
                     key={item}
@@ -408,7 +280,7 @@ export default function Profile() {
       {/* Education */}
       <Box mb={5}>
         <Typography variant="h5" fontWeight="bold" gutterBottom>
-          Education
+          DIPLÔMES ET FORMATIONS
         </Typography>
         <Stack spacing={2}>
           {education.map(({ degree, institution, period, honors }) => (
