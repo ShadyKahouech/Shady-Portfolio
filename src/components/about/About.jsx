@@ -7,10 +7,36 @@ import Footer from "../footer/Footer";
 import LinearDeterminate from "../graph/Graph";
 import ImageCarousel from "../clipper/Clipper";
 function About() {
+  const pictures = [
+    {
+      image:
+        "https://aboutreact.com/wp-content/uploads/2018/09/react_native_map-1.png",
+      title: "Slide 1",
+    },
+    {
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSsJoVzGFJL_YZNi049jZK5jR9FS6WmFMvqw&s",
+      title: "Slide 2",
+    },
+    {
+      image:
+        "https://pbs.twimg.com/profile_images/470682672235151360/vI0ZZlhZ_400x400.png",
+      title: "Slide 3",
+    },
+    {
+      image: "https://jwt.io/apple-icon/256?c8286793fc3e08ca",
+      title: "Slide 4",
+    },
+    {
+      image:
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/f9/e9/e5f9e91d-6cbd-bd40-44af-0cf8f41222af/logo_authenticator_color-0-1x_U007emarketing-0-0-0-6-0-0-0-85-220-0.png/1200x630wa.png",
+      title: "Slide 5",
+    },
+  ];
   return (
     <div className="about__container-global">
-      <div>
-        <Header className="sticky-header" />
+      <div className="sticky-header">
+        <Header />
       </div>
       <div className="about__container-detail">
         <span className="about__container-title">About</span>
@@ -54,13 +80,10 @@ function About() {
             </div>
             <span className="about__container-about">
               Full-stack JavaScript developer with expertise in React.js,
-              Next.js, Express.js, and Node.js,delivering innovative web and
-              mobile projects. With a strong background in databasemanagement
-              and front-end development, I build high-performance, scalable
-              solutions. As aformer researcher and lecturer, I bring excellent
-              communication and teamwork skills. Driven bycontinuous learning, I
-              am passionate about contributing to ambitious and impactful
-              webdevelopment initiatives.
+              Next.js, Express.js, and Node.js. I build high-performance web and
+              mobile apps. With a background as a researcher, lecturer, and
+              medical delegate, I bring strong communication, analytical skills,
+              and a passion for technology to every project.
             </span>
           </div>
         </div>
@@ -127,7 +150,7 @@ function About() {
         <div>
           <div className="about__container-feature-title">Features</div>
         </div>
-        <ImageCarousel />
+        <ImageCarousel images={pictures} />
       </div>
 
       <div className="about__container-footer">
